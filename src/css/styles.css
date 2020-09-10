@@ -1,34 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
+  color: #333333;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.4rem;
+  height: 100%;
 }
 
-ul {
-  padding-left: 24px;
+.container {
+  padding: 0 2.4rem;
 }
 
-li {
-  margin-bottom: 8px;
+img {
+  height: auto;
+  width: 100%;
 }
 
-.welcome {
-  max-width: 800px;
-  margin: 0 auto;
+.header-title {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.7142857142857142em;
+  font-weight: bold;
+  letter-spacing: -0.08em;
+  margin-bottom: 1em;
+  padding: 2rem 0;
+  text-transform: uppercase;
 }
 
-.welcome-text {
-  margin-top: 30vh;
-  font-weight: 500;
+.btn {
+  background-color: #333333;
+  border-width: 0;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: -0.035em;
+  margin-bottom: 4em;
+  outline: none;
+  padding: 1.7142857142857142em 3.0714285714285716em;
+  text-transform: uppercase;
 }
 
-.welcome-text p {
-  font-size: 1rem;
-  font-weight: 400;
+.scarecrow {
+  padding: 1.4285714285714286em;
 }
 
-.welcome-text h1 {
-  font-size: 1.5rem;
+.content__header {
+  font-size: 3.4285714285714284em;
+  font-weight: bold;
+  letter-spacing: -0.035em;
+  margin-bottom: 0.5em;
 }
 
-.welcome-text a {
-  color: #f7542e;
+.content__body {
+  color: #4f4f4f;
+  font-size: 1.2857142857142858em;
+  margin-bottom: 3.75em;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 3em;
+  text-align: center;
 }
