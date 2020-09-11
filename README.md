@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](./src/assets/images/Screenshot.png)
+![screenshot](https://github.com/paulio84/404NotFound/blob/main/src/assets/images/Screenshot.PNG)
 
 ### Built With
 
