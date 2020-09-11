@@ -22,6 +22,7 @@ body {
 }
 
 .container {
+  height: 100%;
   padding: 0 2.4rem;
 }
 
@@ -74,4 +75,31 @@ footer {
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 3em;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .content-area {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .scarecrow {
+    transform: scale(0.8);
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
 }
